@@ -2,9 +2,6 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="FitnessGoalActivity">
-        <State />
-      </entry>
       <entry key="app">
         <State>
           <targetSelectedWithDropDown>
@@ -13,12 +10,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\Miyaki\.android\avd\Pixel_3a_API_26_1.avd" />
+                  <value value="C:\Users\mferl\.android\avd\Pixel_7_Pro_API_26.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-15T21:59:39.527731100Z" />
+          <timeTargetWasSelectedWithDropDown value="2024-04-24T00:32:44.724630700Z" />
         </State>
       </entry>
     </value>

@@ -4,7 +4,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiManager {
-    private static final String BASE_URL = "http://your-base-url.com/";
+    private static final String BASE_URL = "http://172.30.186.135:8000/";
+
+
 
     public static ApiService getApiService() {
         Retrofit retrofit = new Retrofit.Builder()

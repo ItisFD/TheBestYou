@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import edu.utsa.cs3773.thebestyou.controller.AccountController;
 import edu.utsa.cs3773.thebestyou.model.CreateAccount;
+import edu.utsa.cs3773.thebestyou.model.UserProfile;
 
 public class CreateAccountActivity extends AppCompatActivity {
 
@@ -40,6 +41,8 @@ public class CreateAccountActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(CreateAccountActivity.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(CreateAccountActivity.this, ProfileActivity.class);
+                    intent.putExtra("email", email);
+                    intent.putExtra("password", password);
                     startActivity(intent);
                 }
             }
